@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://mrsweaters.github.io
+title: Oops I coded
+tagline: My brief experiences with software engineering.
+description: Emphasis on brief engineering experiences.
+paginate: 5
