@@ -5,3 +5,9 @@ layout: page
 permalink: about
 ---
 Placeholder about page stuff.
+
+{% highlight ruby lineanchors %}
+def dude
+  @wow = Wow.new
+end
+{% endhighlight %}
