@@ -1,0 +1,70 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #F3F2F4;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #333333;
+}
+
+.container {
+  background: url(/public/img/me.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+a {
+  color: #457B9D;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Lora', serif;
+}
+h2{
+  font-size: 1em;
+}
+
+.github img, .linkedin img {
+  opacity: 0.8;
+  width: 24px;
+}
+
+.github:hover img, .linkedin:hover img{
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    margin-top: 0;
+    background: url(/public/img/me.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 20px 5px;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+  }
+  h2, p {
+    padding: 10px 5px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
